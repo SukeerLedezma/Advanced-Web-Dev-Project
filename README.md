@@ -43,7 +43,7 @@ Once the user has put their items on the menu, they can proceed to the order pag
 ## To clone the repository
 -  git clone https://github.com/SukeerLedezma/Advanced-Web-Dev-Project.git
 
-## Sources for information
+## Sources for images
 https://eldiariony.com/2020/10/18/para-empezar-a-disfrutar-conoce-la-larga-tradicion-del-pan-dulce-mexicano/
 
 https://nyps3j2011.blogspot.com/2022/02/mexican-coffee-mugs.html
