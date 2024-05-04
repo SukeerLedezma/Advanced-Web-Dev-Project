@@ -4,7 +4,7 @@ This is a simple web app for displaying information about soccer leagues, teams,
 ## Project Objectives
 To create a cafe Mexican style website
 Users should be able to choose from the menu
-Once the the user has put their items on the menu, they can proceed to the order page, where the order should process
+Once the user has put their items on the menu, they can proceed to the order page, where the order should process
 
 ## Project Structure
 
@@ -23,10 +23,7 @@ Once the the user has put their items on the menu, they can proceed to the order
   
 
 ## Documented Issues
--information on the menu isn’t being displayed, this could potentially be because there is an incorrect endpoint path. It seems that the menu.html file doesn’t correctly request the information from the database.
--A possible solution to this is to inspect network requests and responses
-An application called Postman can potentially help with interacting with the endpoint directly. This application helps determine whether the issue comes from the server or the network
--As a result of this, the order page cannot function as well.
+-information on the menu isn’t being displayed, this could potentially be because there is an incorrect endpoint path. It seems that the menu.html file doesn’t correctly request the information from the database. A possible solution to this is to inspect network requests and responses. An application called Postman can potentially help with interacting with the endpoint directly. This application helps determine whether the issue comes from the server or the network. As a result of this, the order page cannot function as well.
 
 
 ## Tech Stack
