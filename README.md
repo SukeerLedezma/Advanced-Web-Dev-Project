@@ -1,5 +1,5 @@
 ## Dulce Cafe App
-This is a simple web app for displaying information about soccer leagues, teams, and players.
+A cafe website that provides info about the location and supposedly able to order from the menu
 
 ## Project Objectives
 To create a cafe Mexican style website
