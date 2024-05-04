@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    color: #333333; 
+    background-color: #b0a69e;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0; 
+    font-family: 'Cinzel', serif; 
+    font-size: 36px; 
+    color: #333333; 
+}
+
+.navbar {
+    background-color: #d06b47; 
+    padding: 20px 0; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navbar ul li {
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; 
+}
+
+.navbar ul li a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-family: 'Cinzel', serif; 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+.navbar ul li a:hover {
+    color: #3db7cc; 
+}
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif; 
+    color: #d06b47; 
+}
+
+a {
+    color: #3db7cc; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #ff6600; 
+}
+
+.slideshow-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.slide {
+    display: inline-block; 
+    width: 100%; 
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s; 
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+main p {
+    margin-top: 20px;
+}
+
+footer {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+footer p {
+    margin-top: 20px; 
+}
+

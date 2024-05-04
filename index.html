@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Name - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dulce Café</h1>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>¡Bienvenidos!</h2>
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="slide fade">
+                <img src="image/mexcafe.jpg" width="800" height="400" alt="Slide 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide fade">
+                <img src="image/mug.jpg" width="800" height="400" alt="Slide 2">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide fade">
+                <img src="image/pan.jpg" width="800" height="400" alt="Slide 3">
+            </div>
+
+            <script>
+                let slideIndex = 0;
+        
+                // Function to show slides
+                function showSlides() {
+                    let slides = document.getElementsByClassName("slide");
+                    for (let i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+        
+                // Function to change slides manually
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
+                }
+        
+                // Run the slideshow
+                window.onload = function() {
+                    showSlides();
+                }
+            </script>
+        </div>
+
+        <p>Welcome to Dulce Café, your destination for delicious Mexican coffee and sweets! Step into 
+            our cozy cafe and experience the rich flavors of authentic Mexican cuisine fused with the 
+            aromatic charm of freshly brewed coffee. Whether you're craving a hearty breakfast, 
+            a midday pick-me-up, or a sweet treat to indulge in, we've got you covered. 
+            Explore our menu of handcrafted beverages and mouthwatering pastries, and 
+            immerse yourself in the warm ambiance of our cafe. Join us for a delightful culinary 
+            journey that celebrates the vibrant flavors and traditions of Mexico. ¡Bienvenidos!</p>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Dulce Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
