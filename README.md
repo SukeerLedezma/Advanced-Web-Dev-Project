@@ -31,10 +31,12 @@ Once the user has put their items on the menu, they can proceed to the order pag
   - HTML
   - CSS
   - JavaScript
+    
 -Back-end
   - Node.js
   - Express.js
   - Sequelize
+    
 - Database
   -SQLite     
 
